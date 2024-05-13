@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+li {
+    /* Typografieregeln ------------ */
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 70px;
+    /* ------------------------------ */
+    margin-left: 50px;
+}
