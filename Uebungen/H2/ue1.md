@@ -1,0 +1,1 @@
+Auf allen Seiten, die wir angesehen haben, waren die Tags unserer Meinung nach korrekt verwenden
