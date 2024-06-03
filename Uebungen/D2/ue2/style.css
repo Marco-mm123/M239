@@ -1,7 +1,7 @@
 html, body {
     background: #202124;
     color: white;
-    height: 100%;
+    height: fit-content;
     width: 100%;
     font-size: 14px;
     font-family: arial,sans-serif;
@@ -145,17 +145,30 @@ footer {
 #search:hover {
     background-color: #303134;
 }
-
 #search:focus {
     background-color: #303134;
     box-shadow: 0 1px 6px rgba(138, 180, 248, 0.28);
+
 }
+
 
 .search-buttons  {
     display: flex;
     justify-content: space-evenly;
     margin-top: 25px;
 }
-button {
 
+.submit {
+    background-color: #303134;
+    border: 1px #303134 solid;
+    border-radius: 4px;
+    padding: 10px 15px;
+    color: white;
+    margin: 0 10px 30px 10px;
 }
+
+.submit:hover {
+    border: 1px #bfbfbf solid ;
+}
+
+
