@@ -1,0 +1,411 @@
+{
+  "albums": [
+    {
+      "title": "In Abundance",
+      "release_date": "2016-03-26",
+      "cover": "https://i.scdn.co/image/ab67616d00001e02e6778eb47c6b217e4412850d",
+      "description": "\"In Abundance\" is a compilation mixtape that showcases Playboi Carti's early work before his official debut. Released unofficially, the project features a collection of tracks that highlight Carti's raw talent and potential. Songs like \"YUNGXANHOE\" and \"Broke Boi\" became underground hits, helping to build his cult following. This mixtape is characterized by its lo-fi production and Carti's distinctive, energetic flow, laying the foundation for his future success in the hip-hop scene.",
+      "songs": [
+        {
+          "title": "YOUGXANHOE",
+          "length": "2:56",
+          "listens": 3838474
+        },
+        {
+          "title": "Talk",
+          "length": "2:40",
+          "listens": 2713292
+        },
+        {
+          "title": "I Got Depressed Hoes",
+          "length": "3:44",
+          "listens": 1471524
+        },
+        {
+          "title": "Count It Up",
+          "length": "3:44",
+          "listens": 1988926
+        },
+        {
+          "title": "Whole Thang",
+          "length": "3:41",
+          "listens": 2476606
+        },
+        {
+          "title": "Don't Tell Nobody",
+          "length": "3:37",
+          "listens": 1338604
+        },
+        {
+          "title": "Dem Callin",
+          "length": "4:07",
+          "listens": 1533000
+        },
+        {
+          "title": "Fetti",
+          "length": "3:11",
+          "listens": 710000
+        },
+        {
+          "title": "2Door",
+          "length": "2:12",
+          "listens": 630000
+        },
+        {
+          "title": "Paper",
+          "length": "2:47",
+          "listens": 640000
+        },
+        {
+          "title": "Pray 4 Me",
+          "length": "3:14",
+          "listens": 670000
+        },
+        {
+          "title": "Purple Pool",
+          "length": "3:42",
+          "listens": 938872
+        },
+        {
+          "title": "Sneak Dissin",
+          "length": "1:05",
+          "listens": 1340782
+        },
+        {
+          "title": "What We Doin",
+          "length": "2:44",
+          "listens": 1542812
+        },
+        {
+          "title": "Freestyle 4 The People",
+          "length": "5:05",
+          "listens": 5079453
+        },
+        {
+          "title": "4Tspoon",
+          "length": "2:53",
+          "listens": 9733583
+        },
+        {
+          "title": "Plug",
+          "length": "3:55",
+          "listens": 9666865
+        }
+      ]
+    },
+    {
+      "title": "Playboi Carti",
+      "release_date": "2017-04-14",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273e31a279d267f3b3d8912e6f1",
+      "description": "Playboi Carti's debut self-titled mixtape catapulted him into the limelight with its catchy hooks and innovative beats. Featuring the viral hit \"Magnolia\" and fan-favorite \"wokeuplikethis*,\" this project is known for its minimalist production and Carti's distinctive ad-libs, establishing him as a unique voice in the hip-hop landscape.",
+      "songs": [
+        {
+          "title": "Location",
+          "length": "2:48",
+          "listens": 404011878
+        },
+        {
+          "title": "Magnolia",
+          "length": "3:01",
+          "listens": 835955833
+        },
+        {
+          "title": "Lookin",
+          "length": "3:03",
+          "listens": 79072114
+        },
+        {
+          "title": "Wokeuplikethis*",
+          "length": "3:55",
+          "listens": 524389613
+        },
+        {
+          "title": "Let It Go",
+          "length": "2:30",
+          "listens": 95659341
+        },
+        {
+          "title": "Half & Half",
+          "length": "3:47",
+          "listens": 50865908
+        },
+        {
+          "title": "New Choppa",
+          "length": "2:06",
+          "listens": 128492075
+        },
+        {
+          "title": "Other Shit",
+          "length": "2:48",
+          "listens": 31202606
+        },
+        {
+          "title": "No. 9",
+          "length": "3:19",
+          "listens": 73840440
+        },
+        {
+          "title": "Dothatshit!",
+          "length": "3:04",
+          "listens": 100527920
+        },
+        {
+          "title": "Lame Ni**az",
+          "length": "2:53",
+          "listens": 48471018
+        },
+        {
+          "title": "Yah Mean",
+          "length": "2:45",
+          "listens": 142773990
+        },
+        {
+          "title": "Flex",
+          "length": "4:00",
+          "listens": 145953189
+        },
+        {
+          "title": "Kelly K",
+          "length": "4:31",
+          "listens": 50024284
+        },
+        {
+          "title": "Had 2",
+          "length": "2:19",
+          "listens": 28501134
+        }
+      ]
+    },
+    {
+      "title": "Die Lit",
+      "release_date": "2018-05-11",
+      "cover": "https://i.scdn.co/image/ab67616d0000b273a1e867d40e7bb29ced5c0194",
+      "description": "\"Die Lit,\" Playboi Carti's debut studio album, solidified his place in the rap scene with its experimental sound and energetic delivery. The album is celebrated for its eclectic production and mosh-pit anthems like \"Shoota\" featuring Lil Uzi Vert and \"R.I.P.\" The project showcases Carti's ability to blend punk rock influences with trap, creating a raw and frenetic listening experience.",
+      "songs": [
+        {
+          "title": "Long Time - Intro",
+          "length": "3:31",
+          "listens": 276604499
+        },
+        {
+          "title": "R.I.P.",
+          "length": "3:12",
+          "listens": 319363459
+        },
+        {
+          "title": "Lean 4 Real",
+          "length": "2:57",
+          "listens": 107280305
+        },
+        {
+          "title": "Old Money",
+          "length": "2:15",
+          "listens": 64683297
+        },
+        {
+          "title": "Love Hurts",
+          "length": "3:00",
+          "listens": 153360258
+        },
+        {
+          "title": "Shoota",
+          "length": "2:33",
+          "listens": 688611832
+        },
+        {
+          "title": "Right Now",
+          "length": "3:27",
+          "listens": 70388536
+        },
+        {
+          "title": "Poke It Out",
+          "length": "4:29",
+          "listens": 99831085
+        },
+        {
+          "title": "Home (KOD)",
+          "length": "2:42",
+          "listens": 75729293
+        },
+        {
+          "title": "Fell In Luv",
+          "length": "3:26",
+          "listens": 349679978
+        },
+        {
+          "title": "Foreign",
+          "length": "2:22",
+          "listens": 205810865
+        },
+        {
+          "title": "Pull Up",
+          "length": "3:36",
+          "listens": 50868557
+        },
+        {
+          "title": "Mileage",
+          "length": "2:29",
+          "listens": 59864740
+        },
+        {
+          "title": "FlatBed Freestyle",
+          "length": "3:13",
+          "listens": 194092547
+        },
+        {
+          "title": "No Time",
+          "length": "3:39",
+          "listens": 89774376
+        },
+        {
+          "title": "Middle of the Summer",
+          "length": "2:17",
+          "listens": 52781772
+        },
+        {
+          "title": "Choppa Won't Miss",
+          "length": "3:37",
+          "listens": 76785909
+        },
+        {
+          "title": "R.I.P. Fredo - Notice Me",
+          "length": "2:41",
+          "listens": 97266416
+        },
+        {
+          "title": "Top",
+          "length": "2:13",
+          "listens": 41028416
+        }
+      ]
+    },
+    {
+      "title": "Whole Lotta Red",
+      "release_date": "2020-12-25",
+      "cover": "https://i.scdn.co/image/ab67616d0000b27398ea0e689c91f8fea726d9bb",
+      "description": "\"Whole Lotta Red,\" Playboi Carti's highly anticipated sophomore album, debuted at number one on the Billboard 200, reflecting its immense hype. The album features a darker, more aggressive sound, with tracks like \"Rockstar Made\" and \"Slay3r\" pushing the boundaries of his signature style. The project's punk and goth-inspired aesthetics, along with Carti's experimental approach, have made it a polarizing yet influential release.",
+      "songs": [
+        {
+          "title": "Rockstar Made",
+          "length": "3:13",
+          "listens": 143164396
+        },
+        {
+          "title": "Go2DaMoon",
+          "length": "1:59",
+          "listens": 117432571
+        },
+        {
+          "title": "Stop Breathing",
+          "length": "3:38",
+          "listens": 180137326
+        },
+        {
+          "title": "Beno!",
+          "length": "2:33",
+          "listens": 53641794
+        },
+        {
+          "title": "JumpOutTheHouse",
+          "length": "1:33",
+          "listens": 51675358
+        },
+        {
+          "title": "M3tamorphosis",
+          "length": "5:12",
+          "listens": 67476423
+        },
+        {
+          "title": "Slay3r",
+          "length": "2:44",
+          "listens": 66175072
+        },
+        {
+          "title": "No Sl33p",
+          "length": "1:28",
+          "listens": 39224864
+        },
+        {
+          "title": "New Tank",
+          "length": "1:29",
+          "listens": 195448751
+        },
+        {
+          "title": "Teen X",
+          "length": "3:25",
+          "listens": 43831774
+        },
+        {
+          "title": "Meh",
+          "length": "1:58",
+          "listens": 77187193
+        },
+        {
+          "title": "Vamp Anthem",
+          "length": "2:04",
+          "listens": 293257309
+        },
+        {
+          "title": "New N3on",
+          "length": "1:56",
+          "listens": 70632417
+        },
+        {
+          "title": "Control",
+          "length": "3:17",
+          "listens": 44683455
+        },
+        {
+          "title": "Punk Monk",
+          "length": "3:49",
+          "listens": 39197108
+        },
+        {
+          "title": "On That Time",
+          "length": "1:42",
+          "listens": 122898948
+        },
+        {
+          "title": "King Vamp",
+          "length": "3:06",
+          "listens": 39338857
+        },
+        {
+          "title": "Place",
+          "length": "1:57",
+          "listens": 74176774
+        },
+        {
+          "title": "Sky",
+          "length": "3:13",
+          "listens": 715460090
+        },
+        {
+          "title": "Over",
+          "length": "2:46",
+          "listens": 92937843
+        },
+        {
+          "title": "ILoveUIHateU",
+          "length": "2:15",
+          "listens": 303701511
+        },
+        {
+          "title": "Die4Guy",
+          "length": "2:11",
+          "listens": 43252125
+        },
+        {
+          "title": "Not PLaying",
+          "length": "2:10",
+          "listens": 37388894
+        },
+        {
+          "title": "F33l Lik3 Dyin",
+          "length": "3:24",
+          "listens": 34249641
+        }
+      ]
+    }
+  ]
+}

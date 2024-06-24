@@ -26,24 +26,38 @@ img {
 h2 {
     color: var(--secondary-color);
     margin-top: 2rem;
+    text-align: center;
+}
+
+h3 {
+    color: var(--secondary-color);
+    text-align: center;
 }
 
 p {
     color: var(--secondary-color);
     margin: 1rem 2rem;
+    text-align: justify;
 }
 
-.songList {
-    list-style-type: none;
-    padding: 0;
-}
-
-.songList ul {
-    padding: 0;
-}
-
-.songList li {
-    padding: 0.5rem 0;
-    border-bottom: 1px solid var(--secondary-color);
+table {
+    table-layout: fixed;
+    width: 100%;
     color: var(--secondary-color);
+    border-collapse: collapse;
 }
+
+th, td {
+    border: 1px solid var(--secondary-color);
+    text-align: center;
+    padding: 8px;
+}
+
+thead {
+    background-color: var(--primary-color);
+}
+
+tbody tr:nth-child(even) {
+    background-color: #333;
+}
+

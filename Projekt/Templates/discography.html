@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="discography.css">
     <title>Playboi Carti Discography</title>
+    <script src="./script.js" defer></script>
 </head>
 <body>
-    <h1>Album Title</h1>
-    <img src="../Medien/filler.png" alt="Album Cover">
-    <h2>About</h2>
-    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est </p>
-    <div class="songList">
-        <ul>
-            <li>Song 1</li>
-            <li>Song 2</li>
-            <li>Song 3</li>
-            ...
-        </ul>
-    </div>
+<h1 id="albumTitle"></h1>
+<h3 id="releaseDate"></h3>
+<img src="" alt="Album Cover" id="albumCover">
+<h2 class="about">About</h2>
+<p class="about" id="aboutText"> </p>
+<table>
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Listens</th>
+        <th>Length</th>
+    </tr>
+    </thead>
+    <tbody class="songList"></tbody>
+</table>
 </body>
 </html>
