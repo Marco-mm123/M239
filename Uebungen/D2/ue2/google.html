@@ -32,7 +32,10 @@
         <div class="search-buttons">
 
             <div class="submit-container">
-                <input type="submit" value="Google Search" class="submit">
+                <input type="submit" value="Google Search" class="submit" onclick="
+                    const value = document.querySelector('#search').value;
+                    location.replace(`https://google.com/search?q=${value}`);
+                ">
                 <input type="submit" value="I'm Feeling Lucky" class="submit">
             </div>
 

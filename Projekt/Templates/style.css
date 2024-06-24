@@ -1,164 +1,120 @@
-@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-html, body {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: #0D1B1E;
+:root {
+    --blue: #4062BB;
+    --black: #131515;
+    --white: #E5E7E6;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
-a {
-    text-decoration: none;
-    color: var(--primary-color);
+body, html {
+    background-color: var(--black);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+header, footer {
+    width: 100%;
+    background-color: var(--white);
+    color: var(--black);
+    position: fixed;
+    height: 10%;
+    min-height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 header {
-    background-color: white;
-    padding-bottom: 2rem;
-}
-
-header h1 {
-    text-align: center;
-    font-family: "Notable", sans-serif;
-}
-
-header nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-header button {
-    background-color: transparent;
-    border: none;
-    border-radius: 15px;
-    color: #0D1B1E;
-    padding: 1rem 2rem;
-    font-family: "Notable", sans-serif;
-    transition: background-color 0.5s;
-}
-
-header button:hover {
-    background-color: #a5a0a0;
-}
-
-main {
-    display: flex;
-    flex-direction: row;
-}
-
-main h1 {
-    color: white;
-    text-align: center;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-.mainDiv {
-    border-top: white 1px solid;
-}
-
-.picture-list-container {
-    height: 40vh;
-}
-
-.picture-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.picture-list img {
-    width: 10rem;
-    height: 10rem;
-    object-fit: cover;
-}
-
-.titles {
-    text-align: center;
+    top: 0;
+    left: 0;
 }
 
 footer {
-    background-color: white;
-    padding: 1rem;
-    text-align: center;
+    bottom: 0;
+    left: 0;
 }
 
-.albumCoverImg {
-    transition: transform 300ms;
+.logo {
+    height: 100%;
 }
 
-.albumCoverImg:hover {
-    transform: scale(1.1);
+.logo-container {
+    height: 100%;
 }
 
-.ToursList {
+.logo-blue {
+    filter: invert(36%) sepia(52%) saturate(1266%) hue-rotate(196deg) brightness(86%) contrast(85%);
+}
+
+.logo-white {
+    filter: invert(97%) sepia(5%) saturate(45%) hue-rotate(97deg) brightness(99%) contrast(86%);
+}
+
+.logo-black {
+    filter: invert(3%) sepia(3%) saturate(2671%) hue-rotate(131deg) brightness(101%) contrast(89%);
+}
+
+#searchbar {
+    background-color: var(--black);
+    color: var(--white);
+    border: none;
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+    padding: 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+header {
+    position: relative;
+}
+
+main {
+    width: fit-content;
+    margin: 0 auto 10% auto;
+    color: var(--white);
+    max-width: 1200px;
+}
+
+.recommendation {
+    height: 300px;
+    width: 200px;
+    background-color: var(--blue);
+}
+
+.recommended {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 2rem 0;
-    color: white;
+    justify-content: space-around;
 }
 
-.ToursList a {
-    text-decoration: none;
-    width: 80%;
+#searchbar::placeholder {
+    color: var(--white);
+    opacity: 1;
 }
 
-.tour {
-    background-color: #1C2B2D;
-    border: 1px solid #3D4D4F;
-    border-radius: 10px;
-    padding: 1rem 2rem;
-    margin: 0.5rem 0;
-    text-align: center;
-    transition: background-color 0.3s;
+.search-bar-container {
+    height: 50%;
+    width: 250px;
 }
 
-.tour h2 {
-    font-family: "Notable", sans-serif;
-    margin: 0 0 0.5rem 0;
+.card {
+    height: 300px;
+    width: 200px;
+    background-color: var(--blue);
 }
 
-.tour p {
-    margin: 0.25rem 0;
+.grid {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 50px
 }
 
-.tour:hover {
-    background-color: #3D4D4F;
-}
 
-.ToursList a:hover .tour {
-    background-color: #3D4D4F;
-}
-
-.mainDiv .subDiv {
-    background-color: #3D4D4F;
-    padding: 1.5rem;
-    border-radius: 8px;
-    transition: background-color 0.3s;
-    cursor: pointer;
-}
-
-.mainDiv .subDiv:hover {
-    background-color: #ff8280;
-}
-
-.mainDiv .subDiv h1 {
-    font-family: "Notable", sans-serif;
-    color: white;
-    font-size: 2rem;
-    margin: 0;
-}
-
-.mainDiv .subDiv a {
-    text-decoration: none;
-    color: inherit;
-}
