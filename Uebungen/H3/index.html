@@ -5,6 +5,72 @@
     <title>Forms</title>
 </head>
 <body>
+    <label for="noGames">Ich Spiele keine Spiele</label>
+    <input type="checkbox" name="noGames" id="noGames">
 
+    <h1>Welches ist ihr aktuelles Lieblingsspiel?</h1>
+    <form>
+        <label for="GTA">GTA V</label>
+        <input type="radio" name="game" id="GTA" value="GTA V"><br />
+        <label for="FIFA">FIFA 21</label>
+        <input type="radio" name="game" id="FIFA" value="FIFA 21"><br />
+        <label for="COD">Call of Duty: Warzone</label>
+        <input type="radio" name="game" id="COD" value="Call of Duty: Warzone"><br />
+        <label for="LOL">League of Legends</label>
+        <input type="radio" name="game" id="LOL" value="League of Legends"><br />
+        <label for="WOW">World of Warcraft</label>
+        <input type="radio" name="game" id="WOW" value="World of Warcraft"><br />
+        <label for="MINECRAFT">Minecraft</label>
+        <input type="radio" name="game" id="MINECRAFT" value="Minecraft"><br />
+        <label for="FORTNITE">Fortnite</label>
+        <input type="radio" name="game" id="FORTNITE" value="Fortnite"><br />
+        <label for="APEX">Apex Legends</label>
+        <input type="radio" name="game" id="APEX" value="Apex Legends"><br />
+        <label for="VALORANT">Valorant</label>
+        <input type="radio" name="game" id="VALORANT" value="Valorant"><br />
+        <label for="OVERWATCH">Overwatch</label>
+        <input type="radio" name="game" id="OVERWATCH" value="Overwatch"><br />
+        <label for="none">None of these</label>
+        <input type="radio" name="game" id="none" value="None"><br />
+    </form>
+
+    <h1>Welche der folgenden Spiele spielen sie regelmässig?</h1>
+    <form>
+        <label for="gta_check">GTA V</label>
+        <input type="checkbox" name="gta" id="gta_check"><br />
+        <label for="fifa_check">FIFA 21</label>
+        <input type="checkbox" name="fifa" id="fifa_check"><br />
+        <label for="cod_check">Call of Duty: Warzone</label>
+        <input type="checkbox" name="cod" id="cod_check"><br />
+        <label for="lol_check">League of Legends</label>
+        <input type="checkbox" name="lol" id="lol_check"><br />
+        <label for="wow_check">World of Warcraft</label>
+        <input type="checkbox" name="wow" id="wow_check"><br />
+        <label for="minecraft_check">Minecraft</label>
+        <input type="checkbox" name="minecraft" id="minecraft_check"><br />
+        <label for="fortnite_check">Fortnite</label>
+        <input type="checkbox" name="fortnite" id="fortnite_check"><br />
+        <label for="apex_check">Apex Legends</label>
+        <input type="checkbox" name="apex" id="apex_check"><br />
+        <label for="valorant_check">Valorant</label>
+        <input type="checkbox" name="valorant" id="valorant_check"><br />
+        <label for="overwatch_check">Overwatch</label>
+        <input type="checkbox" name="overwatch" id="overwatch_check"><br />
+    </form>
+
+    <script>
+        const noGames = document.getElementById("noGames");
+
+        noGames.addEventListener('change', function() {
+            document.querySelectorAll("input[type=radio]").forEach(radio => {
+                radio.disabled = this.checked;
+            });
+            document.querySelectorAll("input[type=checkbox]").forEach(checkbox => {
+                if (checkbox.id !== "noGames"){
+                    checkbox.disabled = this.checked;
+                }
+            });
+        });
+    </script>
 </body>
 </html>
