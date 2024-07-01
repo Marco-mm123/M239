@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Steem</title>
+    <link rel="shortcut icon" href="../Grundaufbau/img/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="js/search.js" defer></script>
+</head>
+<body>
+<header>
+    <h1>Registrieren</h1>
+</header>
+<main>
+    <form action="success.html?action=register" method="post">
+        <h2>Registrierung</h2>
+
+        <div class="form-group">
+            <p>Geschlecht:</p>
+            <div class="radio-group">
+                <div>
+                    <input type="radio" id="male" name="geschlecht" value="male" required>
+                    <label for="male">Männlich</label>
+                </div>
+                <div>
+                    <input type="radio" id="female" name="geschlecht" value="female" required>
+                    <label for="female">Weiblich</label>
+                </div>
+                <div>
+                    <input type="radio" id="other" name="geschlecht" value="other" required>
+                    <label for="other">Andere</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="vorname">Vorname:</label>
+            <input type="text" id="vorname" name="vorname" required>
+        </div>
+
+        <div class="form-group">
+            <label for="nachname">Nachname:</label>
+            <input type="text" id="nachname" name="nachname" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+
+        <div class="form-group">
+            <label for="password_repeat">Password wiederholen:</label>
+            <input type="password" id="password_repeat" name="password_repeat" required>
+        </div>
+
+        <div class="form-group">
+            <label for="adresse">Adresse:</label>
+            <input type="text" id="adresse" name="adresse" required>
+        </div>
+
+        <div class="form-group">
+            <label for="plz">PLZ:</label>
+            <input type="text" id="plz" name="plz" required>
+        </div>
+
+        <div class="form-group">
+            <label for="ort">Ort:</label>
+            <input type="text" id="ort" name="ort" required>
+        </div>
+
+        <div class="form-group">
+            <label for="land">Land:</label>
+            <select id="land" name="land" required>
+                <option value="CH">Schweiz</option>
+                <option value="DE">Deutschland</option>
+                <option value="AT">Österreich</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <input type="checkbox" id="datenschutz" name="datenschutz" required>
+            <label for="datenschutz">
+                Ich akzeptiere die Datenschutzbestimmungen
+            </label>
+        </div>
+
+        <button type="submit">Registrieren</button>
+    </form>
+</main>
+<footer>
+    <a class="logo-container" href="index.html">
+        <img src="../Grundaufbau/img/logo.svg" alt="Logo" class="logo-blue logo">
+    </a>
+    <a href="login.html" class="account"><h4>Account</h4></a>
+    <div class="search-bar-container">
+        <label for="searchbar"></label>
+        <ul class="results"><li>1</li><li>2</li></ul>
+        <label for="searchbar"></label><input type="search" name="searchbar" id="searchbar" placeholder="Search">
+    </div>
+</footer>
+</body>
+</html>
