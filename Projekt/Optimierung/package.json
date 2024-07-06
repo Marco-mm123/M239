@@ -1,0 +1,17 @@
+{
+  "name": "optimierung",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "minify-css": "css-minify -d ./ -o ./ && del style.css && move style.min.css style.css",
+    "minify-html": "html-minifier --input-dir ./ --output-dir ./ --collapse-whitespace --file-ext html"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "css-minify": "^2.0.0",
+    "html-minifier": "^4.0.0"
+  }
+}
