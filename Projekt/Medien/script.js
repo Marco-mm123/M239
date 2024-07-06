@@ -4,6 +4,7 @@ const ReleaseDate = document.querySelector("#releaseDate");
 const searchParams = new URLSearchParams(window.location.search);
 const AlbumId = Number(searchParams.get("id"));
 const AlbumCover = document.querySelector("#albumCover");
+const AlbumDescription = document.querySelector("#albumCaption")
 const About = document.querySelector("#aboutText");
 
 async function getData() {
@@ -35,5 +36,6 @@ getData().then(data => {
     AlbumTitle.innerText = Album.title;
     ReleaseDate.innerText = Album.release_date;
     AlbumCover.src = Album.cover;
+    AlbumDescription.innerText = "Album Cover von " + Album.title;
     About.innerText = Album.description;
 });
