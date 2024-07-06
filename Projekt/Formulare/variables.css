@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+
+:root {
+    --primary-color: #0D1B1E;
+    --secondary-color: #fffbfc;
+    --notable-font: "Notable", sans-serif;
+}

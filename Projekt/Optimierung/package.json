@@ -1,0 +1,15 @@
+{
+  "name": "optimierung",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "css-minify": "^2.0.0",
+    "html-minifier": "^4.0.0"
+  }
+}
