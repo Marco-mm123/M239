@@ -1,27 +1,30 @@
+$color_1: var(--secondary-color);
+$font-family_1: "Notable", sans-serif;
+$font-family_2: var(--notable-font), sans-serif;
+$background-color_1: var(--primary-color);
+$background-color_2: #1C2B2D;
+$background-color_3: #333;
+
 body {
-  background-color: var(--primary-color);
+  background-color: $background-color_1;
 }
-
 h1 {
-  color: var(--secondary-color);
+  color: $color_1;
   text-align: center;
-  font-family: "Notable", sans-serif;
+  font-family: $font-family_1;
 }
-
 a {
-  font-family: var(--notable-font), sans-serif;
-  color: var(--secondary-color);
+  font-family: $font-family_2;
+  color: $color_1;
 }
-
 .center {
   margin: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #1C2B2D;
+  background-color: $background-color_2;
   padding: 1rem;
 }
-
 img {
   width: 50%;
   height: auto;
@@ -29,55 +32,50 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-
 h2 {
-  color: var(--secondary-color);
+  color: $color_1;
   margin-top: 2rem;
   text-align: center;
 }
-
 h3 {
-  color: var(--secondary-color);
+  color: $color_1;
   text-align: center;
 }
-
 p {
-  color: var(--secondary-color);
+  color: $color_1;
   margin: 1rem 2rem;
   text-align: justify;
 }
-
 table {
   table-layout: fixed;
   width: 100%;
-  color: var(--secondary-color);
+  color: $color_1;
   border-collapse: collapse;
 }
-
 th {
   border: 1px solid var(--secondary-color);
   text-align: center;
   padding: 8px;
 }
-
 td {
   border: 1px solid var(--secondary-color);
   text-align: center;
   padding: 8px;
 }
-
 thead {
-  background-color: var(--primary-color);
+  background-color: $background-color_1;
 }
-
 figcaption {
-  color: var(--secondary-color);
+  color: $color_1;
   text-align: center;
   font-style: italic;
 }
-
-tbody tr:nth-child(even) {
-  background-color: #333;
+tbody {
+  tr {
+    &:nth-child(even) {
+      background-color: $background-color_3;
+    }
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -89,5 +87,3 @@ tbody tr:nth-child(even) {
     overflow-x: auto;
   }
 }
-
-/*# sourceMappingURL=discography.css.map */
