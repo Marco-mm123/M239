@@ -1,0 +1,219 @@
+[
+  {
+    "name": "Action",
+    "games": [
+      {
+        "title": "Grand Theft Auto V",
+        "developer": "Rockstar Games",
+        "releaseYear": 2013,
+        "image": "https://cdn1.epicgames.com/0584d2013f0149a791e7b9bad0eec102/offer/GTAV_EGS_Artwork_1200x1600_Portrait%20Store%20Banner-1200x1600-382243057711adf80322ed2aeea42191.jpg"
+      },
+      {
+        "title": "The Legend of Zelda: Breath of the Wild",
+        "developer": "Nintendo",
+        "releaseYear": 2017,
+        "image": "https://upload.wikimedia.org/wikipedia/en/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg"
+      },
+      {
+        "title": "Dark Souls III",
+        "developer": "FromSoftware",
+        "releaseYear": 2016,
+        "image": "https://image.api.playstation.com/cdn/EP0700/CUSA03365_00/OFMeAw2KhrdaEZAjW1f3tCIXbogkLpTC.png"
+      },
+      {
+        "title": "Red Dead Redemption 2",
+        "developer": "Rockstar Games",
+        "releaseYear": 2018,
+        "image": "https://image.api.playstation.com/cdn/UP1004/CUSA03041_00/Hpl5MtwQgOVF9vJqlfui6SDB5Jl4oBSq.png"
+      },
+      {
+        "title": "Assassin's Creed Valhalla",
+        "developer": "Ubisoft",
+        "releaseYear": 2020,
+        "image": "https://image.api.playstation.com/vulcan/ap/rnd/202006/1520/EDtkdijFRwbmGKk1G9lrDoEF.png"
+      },
+      {
+        "title": "Batman: Arkham Knight",
+        "developer": "Rocksteady Studios",
+        "releaseYear": 2015,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_xmy9gVRncY6vMbHkA1vfZyxHnWOnrI7b7A&s"
+      },
+      {
+        "title": "Spider-Man: Miles Morales",
+        "developer": "Insomniac Games",
+        "releaseYear": 2020,
+        "image": "https://i.etsystatic.com/22985714/r/il/98043f/3880343217/il_570xN.3880343217_9heb.jpg"
+      },
+      {
+        "title": "Devil May Cry 5",
+        "developer": "Capcom",
+        "releaseYear": 2019,
+        "image": "https://upload.wikimedia.org/wikipedia/en/c/cb/Devil_May_Cry_5.jpg"
+      },
+      {
+        "title": "Sekiro: Shadows Die Twice",
+        "developer": "FromSoftware",
+        "releaseYear": 2019,
+        "image": "https://image.api.playstation.com/vulcan/img/rnd/202010/2723/knxU5uU5aKvQChKX5OvWtSGC.png"
+      },
+      {
+        "title": "Hades",
+        "developer": "Supergiant Games",
+        "releaseYear": 2020,
+        "image": "https://upload.wikimedia.org/wikipedia/en/c/cc/Hades_cover_art.jpg"
+      }
+    ]
+  },
+  {
+    "name": "RPG",
+    "games": [
+      {
+        "title": "The Witcher 3: Wild Hunt",
+        "developer": "CD Projekt Red",
+        "releaseYear": 2015,
+        "image": "https://image.api.playstation.com/vulcan/ap/rnd/202211/0711/kh4MUIuMmHlktOHar3lVl6rY.png"
+      },
+      {
+        "title": "Final Fantasy XV",
+        "developer": "Square Enix",
+        "releaseYear": 2016,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR772s7bhtoyU4IluDwSxFqsJCBr3gCjSMfRw&s"
+      },
+      {
+        "title": "Persona 5",
+        "developer": "Atlus",
+        "releaseYear": 2016,
+        "image": "https://image.api.playstation.com/cdn/EP4062/CUSA06638_00/0fSaYhFhEVP183JLTwVec7qkzmaHNMS2.png"
+      },
+      {
+        "title": "Elder Scrolls V: Skyrim",
+        "developer": "Bethesda Game Studios",
+        "releaseYear": 2011,
+        "image": "https://assets-prd.ignimgs.com/2021/08/19/elder-scrolls-skyrim-button-2017-1629409446732.jpg"
+      },
+      {
+        "title": "Dragon Age: Inquisition",
+        "developer": "BioWare",
+        "releaseYear": 2014,
+        "image": "https://image.api.playstation.com/cdn/EP0006/CUSA00503_00/W9UE5U3qyiBqOQn2FmqhAiYaQTqWPPgb.png"
+      },
+      {
+        "title": "Cyberpunk 2077",
+        "developer": "CD Projekt Red",
+        "releaseYear": 2020,
+        "image": "https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg"
+      },
+      {
+        "title": "Divinity: Original Sin 2",
+        "developer": "Larian Studios",
+        "releaseYear": 2017,
+        "image": "https://image.api.playstation.com/cdn/EP3383/CUSA11898_00/qCNa6hRH1XzGkRoUdKnNS0Zon3GMomx3.png"
+      },
+      {
+        "title": "Mass Effect: Andromeda",
+        "developer": "BioWare",
+        "releaseYear": 2017,
+        "image": "https://upload.wikimedia.org/wikipedia/en/0/07/Mass_Effect_Andromeda_cover.jpeg"
+      }
+    ]
+  },
+  {
+    "name": "Shooter",
+    "games": [
+      {
+        "title": "Call of Duty: Modern Warfare",
+        "developer": "Infinity Ward",
+        "releaseYear": 2019,
+        "image": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/mw3/meta/reveal/jpt-reveal-meta.jpg"
+      },
+      {
+        "title": "Overwatch",
+        "developer": "Blizzard Entertainment",
+        "releaseYear": 2016,
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/5/51/Overwatch_cover_art.jpg/220px-Overwatch_cover_art.jpg"
+      },
+      {
+        "title": "Fortnite",
+        "developer": "Epic Games",
+        "releaseYear": 2017,
+        "image": "https://image.api.playstation.com/vulcan/ap/rnd/202311/2801/803e41fee0edf8f8ed1de518e6eac60ddf30ac485b9a16a2.png"
+      },
+      {
+        "title": "Apex Legends",
+        "developer": "Respawn Entertainment",
+        "releaseYear": 2019,
+        "image": "https://upload.wikimedia.org/wikipedia/en/d/db/Apex_legends_cover.jpg"
+      },
+      {
+        "title": "Counter-Strike: Global Offensive",
+        "developer": "Valve",
+        "releaseYear": 2012,
+        "image": "https://m.media-amazon.com/images/M/MV5BYzgxM2E3OWYtNmJjOC00YWEzLTgwYWItYTc5MmM3M2I1YTk0XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_.jpg"
+      }
+    ]
+  },
+  {
+    "name": "Strategy",
+    "games": [
+      {
+        "title": "Civilization VI",
+        "developer": "Firaxis Games",
+        "releaseYear": 2016,
+        "image": "https://upload.wikimedia.org/wikipedia/en/3/3b/Civilization_VI_cover_art.jpg"
+      },
+      {
+        "title": "StarCraft II",
+        "developer": "Blizzard Entertainment",
+        "releaseYear": 2010,
+        "image": "https://www.wog.ch/nas/cover_xl/pcd/pcd_starcraft2.jpg"
+      },
+      {
+        "title": "XCOM 2",
+        "developer": "Firaxis Games",
+        "releaseYear": 2016,
+        "image": "https://image.api.playstation.com/cdn/EP1001/CUSA04530_00/Xzv6Tkk60YPH1wK9yre67zvk4TvrtooW.png"
+      },
+      {
+        "title": "Age of Empires II: Definitive Edition",
+        "developer": "Forgotten Empires",
+        "releaseYear": 2019,
+        "image": "https://store-images.s-microsoft.com/image/apps.64988.13678235101671609.6ca6b3d7-f538-4bc0-aeb7-42f19e88b13b.ab42ecb3-c743-415d-ab25-89b6ed4d8060?q=90&w=177&h=177"
+      }
+    ]
+  },
+  {
+    "name": "Sports",
+    "games": [
+      {
+        "title": "NBA 2K21",
+        "developer": "Visual Concepts",
+        "releaseYear": 2020,
+        "image": "https://assets.2k.com/1a6ngf98576c/5DYwMCuE9rOloEOJkPGYTr/476ad15ed61a038bba13eaf81e3c89f3/DAME_828x828.jpg"
+      },
+      {
+        "title": "Madden NFL 21",
+        "developer": "EA Sports",
+        "releaseYear": 2020,
+        "image": "https://image.api.playstation.com/vulcan/ap/rnd/202006/1518/D9WYIgZSdOaSoQhAHGaDXune.png"
+      },
+      {
+        "title": "MLB The Show 21",
+        "developer": "San Diego Studio",
+        "releaseYear": 2021,
+        "image": "https://image.api.playstation.com/vulcan/ap/rnd/202101/0722/KF4GiVmKeA75MZpzEn32ev3g.png"
+      },
+      {
+        "title": "Tony Hawk's Pro Skater 1 + 2",
+        "developer": "Vicarious Visions",
+        "releaseYear": 2020,
+        "image": "https://images.vans.com/is/image/VansBrand/200910-news-tonyHawk-cover?$356x356$"
+      },
+      {
+        "title": "Rocket League",
+        "developer": "Psyonix",
+        "releaseYear": 2015,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Rocket_League_coverart.jpg"
+      }
+    ]
+  }
+]
