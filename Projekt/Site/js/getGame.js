@@ -18,13 +18,14 @@ async function getRandomGame() {
 function getHtmlFromData(game) {
     const li = document.createElement('li');
     li.classList.add('recommendation');
+    const fig = document.createElement('figure');
     const imageWrapper = document.createElement('div');
     imageWrapper.classList.add('recommendation-img-wrapper');
     const img = document.createElement('img');
     img.classList.add('recommendation-img');
     img.src = game.image;
     imageWrapper.appendChild(img);
-    const info = document.createElement('div');
+    const info = document.createElement('figcaption');
     info.classList.add('recommendation-info');
     const title = document.createElement('b');
     title.innerText = game.title;
@@ -32,8 +33,9 @@ function getHtmlFromData(game) {
     developer.innerText = game.developer + ' - ' + game.releaseYear;
     info.appendChild(title);
     info.appendChild(developer);
-    li.appendChild(imageWrapper);
-    li.appendChild(info);
+    fig.appendChild(imageWrapper);
+    fig.appendChild(info);
+    li.appendChild(fig);
     return li;
 }
 export { getRandomGame, getGamesByCategory, getData };
