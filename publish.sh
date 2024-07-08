@@ -1,4 +1,3 @@
-#!/bin/bash
 
 upload_recursive() {
     local base_dir=$1
