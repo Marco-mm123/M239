@@ -1,0 +1,268 @@
+@import "https://fonts.googleapis.com/css2?family=Notable&display=swap";
+/* Media Queries for Responsiveness */
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #0D1B1E;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #0D1B1E;
+}
+
+a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+header {
+  background-color: white;
+  padding-bottom: 2rem;
+}
+header h1 {
+  text-align: center;
+  font-family: "Notable", sans-serif;
+}
+header nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header button {
+  background-color: transparent;
+  border: none;
+  border-radius: 15px;
+  color: #0D1B1E;
+  padding: 1rem 2rem;
+  font-family: "Notable", sans-serif;
+  transition: background-color 0.5s;
+}
+header button:hover {
+  background-color: #a5a0a0;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+main h1 {
+  color: white;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.mainDiv {
+  border-top: white 1px solid;
+}
+.mainDiv .subDiv {
+  background-color: #3D4D4F;
+  padding: 1.5rem;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+.mainDiv .subDiv:hover {
+  background-color: #ff8280;
+}
+.mainDiv .subDiv h1 {
+  font-family: "Notable", sans-serif;
+  color: white;
+  font-size: 2rem;
+  margin: 0;
+}
+.mainDiv .subDiv a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.picture-list-container {
+  padding: 10rem 0;
+}
+
+.picture-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.picture-list img {
+  width: 10rem;
+  height: 10rem;
+  object-fit: cover;
+}
+
+.titles {
+  text-align: center;
+}
+
+footer {
+  background-color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.albumCoverImg {
+  transition: transform 300ms;
+}
+.albumCoverImg:hover {
+  transform: scale(1.1);
+}
+
+.ToursList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0;
+  color: white;
+}
+.ToursList a {
+  text-decoration: none;
+  width: 80%;
+}
+.ToursList a:hover .tour {
+  background-color: #3D4D4F;
+}
+
+.tour {
+  background-color: #1C2B2D;
+  border: 1px solid #3D4D4F;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  margin: 0.5rem 0;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+.tour h2 {
+  font-family: "Notable", sans-serif;
+  margin: 0 0 0.5rem 0;
+}
+.tour p {
+  margin: 0.25rem 0;
+}
+.tour:hover {
+  background-color: #3D4D4F;
+}
+
+#register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+  width: 90%;
+}
+.form-group input[type=text] {
+  width: 80%;
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  border: white;
+  border-radius: 15px;
+  background-color: var(--primary-color);
+  border: var(--secondary-color) 2px solid;
+  color: var(--secondary-color);
+}
+.form-group select {
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  border: white;
+  border-radius: 15px;
+}
+.form-group input[type=date] {
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  border: white;
+  border-radius: 15px;
+}
+
+input[type=password] {
+  width: 80%;
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  border: white;
+  border-radius: 15px;
+  background-color: var(--primary-color);
+  border: var(--secondary-color) 2px solid;
+  color: var(--secondary-color);
+}
+
+input[type=email] {
+  width: 80%;
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  border: white;
+  border-radius: 15px;
+  background-color: var(--primary-color);
+  border: var(--secondary-color) 2px solid;
+  color: var(--secondary-color);
+}
+
+input[type=tel] {
+  width: 80%;
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  border: white;
+  border-radius: 15px;
+  background-color: var(--primary-color);
+  border: var(--secondary-color) 2px solid;
+  color: var(--secondary-color);
+}
+
+button[type=submit] {
+  border: none;
+  border-radius: 15px;
+  padding: 0.5rem 1rem;
+  font-family: "Notable", sans-serif;
+  transition: background-color 0.5s;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  header nav {
+    flex-direction: column;
+  }
+  main {
+    flex-direction: column;
+  }
+  .picture-list {
+    flex-direction: column;
+  }
+  .form-group {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  header button {
+    padding: 0.5rem 1rem;
+  }
+  .tour {
+    padding: 0.5rem 1rem;
+  }
+  .mainDiv .subDiv h1 {
+    font-size: 1.5rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

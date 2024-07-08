@@ -1,4 +1,4 @@
 ./.idea/
 /.idea/*
-/Projekt/Optimierung/node_modules/
-/Projekt/Medien/node_modules/
+node_modules/
+

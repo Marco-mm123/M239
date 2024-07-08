@@ -1,0 +1,85 @@
+$color_1: white;
+$color_2: black;
+$font-family_1: var(--notable-font), sans-serif;
+$background-color_1: var(--primary-color);
+
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: $background-color_1;
+  color: $color_1;
+  input {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+  }
+  button {
+    padding: 1rem 2rem;
+  }
+}
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  a {
+    color: $color_1;
+    font-family: $font-family_1;
+    font-size: large;
+  }
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer {
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  color: $color_2;
+  padding: 2rem 0;
+}
+@media only screen and (max-width: 300px) {
+  main {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    input {
+      width: 90%;
+      padding: 15px;
+      font-size: 1.2em;
+    }
+    button {
+      padding: 1.5rem 3rem;
+      font-size: 1.2em;
+    }
+  }
+  .button {
+
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    a {
+      font-size: large;
+    }
+  }
+}
